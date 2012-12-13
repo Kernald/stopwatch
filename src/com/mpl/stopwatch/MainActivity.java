@@ -12,6 +12,7 @@ import android.support.v4.view.ViewPager;
 
 public class MainActivity extends SherlockFragmentActivity {
 
+	@SuppressWarnings("unused")
 	private static final String	TAG = "MainActivity";
 	private PagerAdapter		_pagerAdapter;
 	private TitlePageIndicator	_titleIndicator;

@@ -14,7 +14,10 @@
 
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="numberPickerUpButtonStyle">@style/NPWidget.Holo.Light.ImageButton.NumberPickerUpButton</item>
+        <item name="numberPickerDownButtonStyle">@style/NPWidget.Holo.Light.ImageButton.NumberPickerDownButton</item>
+        <item name="numberPickerInputTextStyle">@style/NPWidget.Holo.Light.EditText.NumberPickerInputText</item>
+        <item name="numberPickerStyle">@style/NPWidget.Holo.Light.NumberPicker</item>
     </style>
 
 </resources>
